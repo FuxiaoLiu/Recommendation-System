@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python main.py --data_dir "../wine" --data_name "wine" --vocab_file "vocab.json" --epoch_num 200 --train --batch_size 64 --learning_rate 0.0001 --print_interval 500 --weight_decay 0.00000 --attr_emb_size 64 --user_emb_size 64 --item_emb_size 64
